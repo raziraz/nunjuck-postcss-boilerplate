@@ -1,4 +1,4 @@
-# nujuck-postcss-boilerplate
+# nunjuck-postcss-boilerplate
 
 Just for fun, a simple setup to kickstart a front-end project. The setup includes a 
 basic <a href="https://mozilla.github.io/nunjucks/">Nunjuck</a> structure, <a href="http://postcss.org/">PostCSS</a> and Gulp.
