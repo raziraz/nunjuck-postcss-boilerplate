@@ -13,7 +13,6 @@
     "browser-sync": "^2.11.2",
     "css-mqpacker": "^4.0.1",
     "cssnano": "^3.5.2",
-    "cssnext": "^1.8.4",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-data": "^1.2.1",
@@ -25,6 +24,8 @@
     "normalize.css": "^4.0.0",
     "nunjucks": "^2.4.1",
     "postcss-import": "^8.1.0",
-    "precss": "^1.4.0"
+    "postcss": "^5.0.19",
+    "postcss-cssnext": "^2.5.2",
+    "precss": "^1.4.0",
   }
 }
