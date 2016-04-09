@@ -1,0 +1,42 @@
+<!-- layout.njk -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- You write code for this content block in another file -->
+  
+  <h1>This is a postcss Nunjuck boilerplate!!!!!</h1>
+  <!-- Adds the navigation partial -->
+  
+  <!-- Creating the navigation with activePage = 'home' -->
+  
+<nav>
+  <a href="#" class=" active ">Home</a>
+  <!-- Repeat for about and contact -->
+</nav>
+
+  <!-- index.nunjucks -->
+  <div class="gallery">
+  <!-- Loops through "images" array -->
+  
+  <div class="gallery__item">
+    <img src="dest/img/image-one.jpg" alt="Image one alt text">
+  </div>
+  
+  <div class="gallery__item">
+    <img src="dest/img/image-two.jpg" alt="Image two alt text">
+  </div>
+  
+</div>
+
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+@import "normalize.css";
+
+/* Testing autoprefixer */
+
+.autoprefixer {
+  display: flex;
+}
+
+/* Testing cssnext */
+
+.cssnext {
+  background: color(red alpha(-10%));
+}
+
+/* Testig precss */
+
+.precss {
+  @if 3 < 5 {
+    background: green;
+  }
+  @else {
+    background: blue;
+  }
+}
+
+body {
+  color: blue;
+}
