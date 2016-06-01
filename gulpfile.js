@@ -2,7 +2,6 @@ var gulp = require('gulp'),
     postcss = require('gulp-postcss'),
     autoprefixer = require('autoprefixer'),
     cssnext = require('postcss-cssnext'),
-    precss = require('precss'),
     atImport = require('postcss-import'),
     mqpacker = require('css-mqpacker'),
     browserSync = require('browser-sync'),
@@ -20,7 +19,6 @@ gulp.task('css', function () {
     autoprefixer({browsers: ['last 2 version']}),
     atImport,
     cssnext,
-    precss,
     mqpacker,
     cssnano
   ];
